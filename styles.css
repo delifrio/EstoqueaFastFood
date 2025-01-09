@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #310055;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+#estoque, #controle {
+    margin-bottom: 2rem;
+}
+
+ul#lista-estoque {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#lista-estoque li {
+    background-color: #ffffff33;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+ul#lista-estoque li span.quantidade {
+    font-size: 1.2rem;
+    background-color: #FFDE59;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    color: #310055;
+}
+
+button {
+    background-color: #FFDE59;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
+
+select, input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
