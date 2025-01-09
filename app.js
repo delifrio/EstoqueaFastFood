@@ -21,7 +21,10 @@ const itensEstoque = [
     "Vinagre",
     "Ovos",
     "Sal",
-    "Colorau",
+    "Coloral",
+    "Açafrão",
+    "Feijão ",
+    "Macarrão de Lasanha",
 ];
 
 let estoque = {};
