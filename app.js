@@ -25,6 +25,28 @@ const itensEstoque = [
     "Açafrão",
     "Feijão ",
     "Macarrão de Lasanha",
+    "champignons",
+    "mostarda",
+    "molho shoyu",
+    "café",
+    "caldo de frutos do mar",
+    "bacom",
+    "calabresa",
+    "agua sanitaria",
+    "detergente",
+    "desinfetante",
+    "Veja",
+    "papel higiênico",
+    "naftalina",
+    "pefex",
+    "saco de lixo preto",
+    "saco de lixo azul",
+    "sabao em pó",
+    "sabão em barra",
+    "bombrio",
+    "lustra móveis",
+    "sabão em Barra",
+    "kpp viagem"
 ];
 
 let estoque = {};
