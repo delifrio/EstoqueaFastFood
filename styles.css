@@ -80,3 +80,54 @@ footer {
     font-size: 0.9rem;
     color: #ccc;
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    color: white;
+    padding: 20px;
+}
+
+#popup button {
+    background-color: #f00;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#popup button:hover {
+    background-color: #c00;
+}
+
+/* Adicionando animação de gradiente ao botão "Estoque Produção" */
+@keyframes gradient-slide {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#abrir-popup {
+    background: linear-gradient(45deg, #3b0a45, #ffcc00);
+    background-size: 400% 400%;
+    animation: gradient-slide 5s ease infinite;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+}
+
+#abrir-popup:hover {
+    transform: scale(1.05);
+}
